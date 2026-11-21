@@ -28,7 +28,7 @@ Note the use of dashes to signify the start of each item in the list, and matchi
 
 The ``module`` option must match one of the sources listed below, or your :ref:`custom source <custom-source-plugins>`. The ``name`` is freeform.
 
-All sources allow credentials such as usernames, passwords, OAuth tokens, etc to be defined in a seperate ``credentials`` section and referenced by name with a ``credentials`` keyword. Consider a plugin that accepts a ``token`` and a ``secret``. In ``config.yml``, you would set it up the ``credentials`` and ``sources`` sections like this:
+All sources allow credentials such as usernames, passwords, OAuth tokens, etc to be defined in a separate ``credentials`` section and referenced by name with a ``credentials`` keyword. Consider a plugin that accepts a ``token`` and a ``secret``. In ``config.yml``, you would set it up the ``credentials`` and ``sources`` sections like this:
 
 .. code-block:: yaml
 

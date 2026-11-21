@@ -49,7 +49,7 @@ Example:
 
 By combining these three options, you can include any number of different sources and operators in your config, and still only send exactly the artifacts you want to each operator.
 
-All operators allow credentials such as usernames, passwords, OAuth tokens, etc to be defined in a seperate ``credentials`` section and referenced by name with a ``credentials`` keyword. Consider a plugin that accepts a ``token`` and a ``secret``. In ``config.yml``, you would set it up the ``credentials`` and ``operators`` sections like this:
+All operators allow credentials such as usernames, passwords, OAuth tokens, etc to be defined in a separate ``credentials`` section and referenced by name with a ``credentials`` keyword. Consider a plugin that accepts a ``token`` and a ``secret``. In ``config.yml``, you would set it up the ``credentials`` and ``operators`` sections like this:
 
 .. code-block:: yaml
 
